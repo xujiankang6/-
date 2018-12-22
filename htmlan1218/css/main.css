@@ -1,0 +1,324 @@
+/*统一外观*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: grey;
+    font-family: "微软雅黑 Light";
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/*布局样式1*/
+.wrap {
+    width: 1400px;
+    background-color: white;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.wrap .logo {
+    background-color: #13371d;
+    height: 134px;
+    overflow: hidden;
+}
+
+.wrap .nav {
+    height: 60px;
+    background: url("../images/menu_bg.png") repeat-x;
+
+}
+
+.wrap .adv {
+    height: 386px;
+    overflow: hidden;
+}
+
+.adv .center img {
+    width: 100%;
+}
+
+.wrap .main .center {
+
+    min-height: 200px;
+    overflow: hidden;
+
+}
+
+/*用子选择器*/
+.wrap .main .center > .left {
+
+    width: 694px;
+    min-height: 200px;
+
+}
+
+.wrap .main .center .right {
+    width: 260px;
+    min-height: 200px;
+
+
+}
+.wrap .link .center {
+    border: 1px solid #3f7e3b;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.wrap .main, .wrap .link {
+    margin-bottom: 10px;
+}
+.wrap .main, .wrap .link h4{
+    text-indent: 1em;
+}
+
+
+.wrap .copy .center {
+    height: 98px;
+    background-color: #3f7e3b;
+    overflow: hidden;
+
+
+}
+.wrap .copy .center p:first-child{
+
+    margin-top: 25px;
+
+}
+.wrap .copy .center p{
+    color: white;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+
+}
+
+.center {
+    margin: 0 auto;
+    width: 996px;
+}
+
+/*通用样式*/
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/*logo-style*/
+
+.wrap .logo .center .right ul li {
+    float: left;
+    color: white;
+    margin-left: 10px;
+    background: url("../images/li_ball.png") no-repeat;
+    text-indent: 1em;
+    background-position: 0px 40px;
+}
+
+.wrap .logo .center .right ul {
+    height: 87px;
+    line-height: 87px;
+}
+
+.wrap .logo .center .right div {
+    height: 46px;
+    text-align: right;
+}
+
+.wrap .logo .center .right div button {
+    background: url("../images/search.png");
+    text-indent: -100000px;
+    border: none;
+    width: 22px;
+    height: 20px;
+}
+
+/*nav-style--start*/
+
+.nav .center ul {
+    overflow: hidden;
+    width: 100%;
+}
+
+.wrap .nav .center ul li {
+    float: left;
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.wrap .nav .center ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    height: 60px;
+    padding: 0 40px;
+
+}
+
+.wrap .nav .center ul li a:hover {
+    color: #ff1818;
+    background-color: #13371d;
+
+}
+
+.nav .center li.split {
+    background: url("../images/li_split.png") no-repeat;
+    background-position: center;
+    width: 6px;
+    height: 60px;
+
+}
+
+/*nav-style--end*/
+
+/*main-panel-style-start*/
+
+.panel {
+    background-color: #fff;
+    border: grey solid 1px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.panel .panel_head {
+    background: linear-gradient(#fefefe, #f1f1f1, #e5e5e5);
+    height: 24px;
+    line-height: 24px;
+
+}
+
+.panel .panel_head h4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.panel .panel_head h4 img {
+    vertical-align: middle;
+    margin-top: -4px;
+}
+
+.panel .panel_body img {
+    width: 240px;
+    float: left;
+    height: 108px;
+}
+
+.panel .panel_body {
+    padding: 10px;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.panel .panel_foot {
+    position: relative;
+    min-height: 10px;
+}
+
+.panel .panel_foot .more {
+    position: absolute;
+    right: 2em;
+    bottom: 0.5em;
+}
+.list{
+
+    overflow: hidden;
+
+}
+
+.list li>a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    line-height: 24px;
+    border-bottom: 1px dashed #777;
+
+}
+.list li > a:hover{
+    color: red;
+
+}
+.list li > a >span{
+    float: right;
+
+}
+
+.list li {
+
+    float: left;
+    width: 48%;
+    margin:0 1%;
+}
+.list_link li{
+    width:23%;
+    margin:0 1%;
+}
+ .link .center h4{
+        border-bottom: none;
+     color: red;
+    }
+
+/*图片列表*/
+.list_img{
+    margin-top: 10px;
+    overflow: hidden;
+}
+.list_img li{
+    float: left;
+    width: 18%;
+    margin: 0 1%;
+    overflow: hidden;
+}
+
+.list_img li a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+
+.list_img li a h4{
+    text-align: center;
+}
+
+
+.panel-green .panel_head{
+    background: linear-gradient(#70b454,#48883f,#29652f);
+    color: #fff;
+}
+
+/*产品分类*/
+.panel_nopadding .panel_body{
+    padding: 0;
+}
+.list-back{
+    overflow: hidden;
+}
+.list-back li{
+    background: linear-gradient(#ffffff,#f0f0f0,#ececec);
+    border-bottom: 1px solid #ccc;
+}
+.list-back li a{
+    display: block;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    background: url("../images/mm.png") no-repeat;
+    height: 24px;
+    line-height: 24px;
+    background-position: 2em 8px;
+}
+.list-back li:hover{
+    background: linear-gradient(yellow,yellowgreen,yellow);
+}
+/*main-panel-style-end*/
