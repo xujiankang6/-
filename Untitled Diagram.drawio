@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-19T13:09:15.585Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="-Lr4v6Y4VH6g3eGCQ9V2" version="14.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-20T02:00:04.296Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="155TCD979mZvIZGRmvlX" version="14.6.1" type="github">
   <diagram id="Wd80GSpx1UcoW5oWnFMf" name="Page-1">
-    <mxGraphModel dx="1108" dy="1494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="1550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -850,6 +850,9 @@
         <mxCell id="QnwhwVCY46lNQm2Urvge-537" value="“调拨”的话是否与虚拟仓下游名称一致；" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="1950" y="2670" width="120" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="QnwhwVCY46lNQm2Urvge-750" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QnwhwVCY46lNQm2Urvge-540" target="QnwhwVCY46lNQm2Urvge-749">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="QnwhwVCY46lNQm2Urvge-540" value="根据退货申请单生成退货红字入库单；" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="1950" y="2817.5" width="120" height="70" as="geometry" />
         </mxCell>
@@ -964,6 +967,9 @@
         </mxCell>
         <mxCell id="QnwhwVCY46lNQm2Urvge-586" value="“调拨”的话是否与虚拟仓下游名称一致；" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="2260" y="2665" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QnwhwVCY46lNQm2Urvge-752" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QnwhwVCY46lNQm2Urvge-587" target="QnwhwVCY46lNQm2Urvge-751">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QnwhwVCY46lNQm2Urvge-587" value="根据退货申请单生成退货红字入库单；" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="2260" y="2917.5" width="120" height="70" as="geometry" />
@@ -1224,6 +1230,12 @@
         </mxCell>
         <mxCell id="QnwhwVCY46lNQm2Urvge-746" value="确认后生成采购订单编号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="980" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QnwhwVCY46lNQm2Urvge-749" value="结束" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="2972.5" width="120" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QnwhwVCY46lNQm2Urvge-751" value="结束" style="ellipse;whiteSpace=wrap;html=1;rounded=0;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="2260" y="3072.5" width="120" height="97.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
